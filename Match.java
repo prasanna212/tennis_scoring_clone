@@ -99,6 +99,7 @@ class ScoreBoard{
 			System.out.println("Player A won");
 		else if(playerB.isMatch())
 			System.out.println("Player B won");
+		System.out.println("------------");
 	}
 
 	private void changeScore(Score first, Score second) {
