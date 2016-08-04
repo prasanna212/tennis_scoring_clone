@@ -104,9 +104,9 @@ class ScoreBoard{
 
 	private void changeScore(Score first, Score second) {
 		// TODO Auto-generated method stub
-		if(first.getPoints() < 4 )
+		if(first.getPoints() < 3 )
 			first.setPoints(first.getPoints()+1);
-		if(first.getPoints() == 4)
+		if(first.getPoints() == 3)
 		{
 			if(first.isAdvantage())
 			{
